@@ -1,0 +1,86 @@
+.our-business {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background: url('/images/hero-background.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about-section, .features-section, .gallery-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-section h2, .features-section h2, .gallery-section h2 {
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.feature h3 {
+    color: #ff5722;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer .social-links a {
+    color: #ff5722;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+}

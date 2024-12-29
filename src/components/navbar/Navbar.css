@@ -108,6 +108,9 @@
   }
   
   .navbar-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 15px;
     position: relative;
     margin-top: 10px; /* Space below the navbar */
     top: 35px; /* Move it 20px down from its original position */
