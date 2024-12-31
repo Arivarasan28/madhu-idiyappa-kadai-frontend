@@ -93,7 +93,7 @@
     background-color: #f1f1f1;
   }
   
-  .signup-button {
+  .joinwithus-button {
     background-color: #d32323;
     color: white;
     border: none;
@@ -103,7 +103,7 @@
     cursor: pointer;
   }
   
-  .signup-button:hover {
+  .joinwithus-button:hover {
     background-color: #a91c1c;
   }
   
@@ -153,4 +153,10 @@
   .dropdown-item:hover {
     background-color: #f5f5f5;
   }
+
+  .join-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
   

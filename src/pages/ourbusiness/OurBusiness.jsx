@@ -15,7 +15,7 @@ const OurBusiness = () => {
       <section className="about-section">
         <h2>About Us</h2>
         <p>
-          At [Your Food Truck Name], we believe that great food doesn’t need to
+          At MADHU IDIYAPPA KADAI, we believe that great food doesn’t need to
           be expensive. We bring gourmet meals to your neighborhood, crafted
           with the freshest ingredients and served with love.
         </p>
@@ -45,9 +45,9 @@ const OurBusiness = () => {
       <section className="gallery-section">
         <h2>Our Gallery</h2>
         <div className="gallery">
-          <img src="/images/food-truck1.jpg" alt="Food Truck" />
-          <img src="/images/food-item1.jpg" alt="Delicious Dish" />
-          <img src="/images/food-item2.jpg" alt="Tasty Meal" />
+          <img src="/public/trucks/truck2.jpg" alt="Food Truck" />
+          <img src="/public/trucks/truck1.jpg" alt="Delicious Dish" />
+          <img src="/public/trucks/truck3.jpg" alt="Tasty Meal" />
         </div>
       </section>
 

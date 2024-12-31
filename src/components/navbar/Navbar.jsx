@@ -20,13 +20,17 @@ const Navbar = () => {
       </div>
       <div className="navbar-right">
         <Link to="/our-business" className="nav-link">
-          Our Business
+          About Us
         </Link>
-        <a href="#write-review" className="nav-link">
-          Write a Review
+        <a href="/write-review" className="nav-link">
+          Reviews
         </a>
-        <button className="login-button">Log In</button>
-        <button className="signup-button">Sign Up</button>
+      {/* <button className="login-button">Log In</button> */}
+      <button className="joinwithus-button">
+        <Link to="/Join-With" className="join-link">
+          Join with Us
+        </Link>
+      </button>
       </div>
     </nav>
   );
